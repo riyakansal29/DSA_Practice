@@ -32,7 +32,7 @@ node * tree::insertnode(node *root, int value){
   else if(root->left==NULL)
     root->left = insertnode(root->left, value);
   else if(root->right == NULL)
-    root->right = insertnode(root->right, value;
+    root->right = insertnode(root->right, value);
   else{
     root->left = insertnode(root->left, value);
   }
